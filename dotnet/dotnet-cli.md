@@ -5,11 +5,14 @@
 
  **Create Project**
 
-> `dotnet new webapi -o demo.webapi`
-> `dotnet new mvc -o demo.mvc`
-> `dotnet new grpc -o demo.grpc`
-> `dotnet new classlib -o demo.library` 
-> `dotnet new mstest -o demo.test`
+ CLI Command| Project type |
+---------|----------|---------
+ 
+`dotnet new webapi -o demo.lib`
+ `dotnet new mvc -o demo.mvc`
+`dotnet new grpc -o demo.grpc`
+ `dotnet new classlib -o demo.library` 
+ `dotnet new mstest -o demo.test`
 
 **Add Project to Solution file**
 > `dotnet sln add  demo.webapi\demo.webapi.csproj`

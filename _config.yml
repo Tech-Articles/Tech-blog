@@ -1,0 +1,11 @@
+theme: jekyll-theme-leap-day
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+title: Reference Pages
+description: References commands and links.
+nav_order: 4
